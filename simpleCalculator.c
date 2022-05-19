@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-void main(){
+void main()
+{
 
   char op;
   int first, second;
@@ -11,22 +12,22 @@ void main(){
   printf("Enter The Second Number: ");
   scanf("%d", &second);
 
-  switch (op) {
-    case '+':
-      printf("%d",first + second);
-      break;
-    case '-':
-      printf("%d",first - second);
-      break;
-    case '*':
-      printf("%d",first * second);
-      break;
-    case '/':
-      printf("%d",first / second);
-      break;
-    default:
-      printf("Error! operator is not correct");
+  switch (op)
+  {
+  case '+':
+    printf("%d", first + second);
+    break;
+  case '-':
+    printf("%d", first - second);
+    break;
+  case '*':
+    printf("%d", first * second);
+    break;
+  case '/':
+    printf("%d", first / second);
+    break;
+  default:
+    printf("Error! operator is not correct");
   }
-    return 0;
+  return 0;
 }
-
